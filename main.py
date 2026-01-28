@@ -185,4 +185,3 @@ if __name__ == "__main__":
     print("  3. GET /list       - JSON список")
     print("  4. GET /files/*    - Скачивание")
     print("  5. GET /upload-form - HTML форма")
-    uvicorn.run(app, host="0.0.0.0", port=8010)
